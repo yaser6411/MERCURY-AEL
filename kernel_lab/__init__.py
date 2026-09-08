@@ -1,1 +1,1 @@
-"""MERCURY-AEL kernel research lab (isolated from host OS).""\n
+"""MERCURY-AEL kernel research lab (isolated from host OS)."""
