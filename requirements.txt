@@ -1,0 +1,34 @@
+# MERCURY-AEL v0.1 Dependencies
+python-version>=3.9
+
+# Core dependencies
+psutil>=5.9.0              # Resource monitoring
+pyyaml>=6.0                # Configuration management
+hashlib                    # Built-in: candidate hashing
+subprocess                 # Built-in: process isolation
+tempfile                   # Built-in: sandbox temp dirs
+shutil                     # Built-in: file operations
+os                         # Built-in: OS operations
+time                       # Built-in: timing
+json                       # Built-in: JSON serialization
+logging                    # Built-in: logging
+argparse                   # Built-in: CLI args
+datetime                   # Built-in: timestamps
+
+# Testing
+pytest>=7.0.0              # Unit testing framework
+pytest-timeout>=2.1.0      # Test timeouts
+pytest-cov>=4.0.0          # Coverage reporting
+hypothesis>=6.68.0         # Property-based testing
+
+# Code quality
+bandit>=1.7.5              # Security linting
+flake8>=5.0.0              # Style linting
+pylint>=2.15.0             # Static analysis
+black>=22.0.0              # Code formatter
+
+# Performance monitoring
+numpy>=1.21.0              # Numerical operations (optional for benchmarking)
+
+# Documentation
+# markdown>=3.4.0            # Markdown generation (optional)
